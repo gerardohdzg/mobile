@@ -1,0 +1,26 @@
+{
+  "name": "mobile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^6.12.1",
+    "appium": "^2.0.0-beta.19"
+  },
+  "devDependencies": {
+    "@applitools/eyes-webdriverio": "^5.35.4",
+    "@wdio/appium-service": "^7.20.3",
+    "@wdio/local-runner": "^7.20.3",
+    "@wdio/mocha-framework": "^7.20.3",
+    "@wdio/sauce-service": "^7.20.3",
+    "@wdio/spec-reporter": "^7.20.3",
+    "chromedriver": "^102.0.0",
+    "wdio-chromedriver-service": "^7.3.2"
+  }
+}
